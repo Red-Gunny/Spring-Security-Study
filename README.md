@@ -1,6 +1,9 @@
 # jwt-practice
 jwt 토큰, Spring security로 API요청 제한 설정
 
+# Jwt인데 Access Token, Refresh Token 활용
+<img width="80%" src="https://user-images.githubusercontent.com/77635421/135838629-d065e93b-7550-4f53-a2c4-c56c2b4b5277.JPG"/>
+
 # Spring Security 아키텍쳐 설명
 <img width="80%" src="https://user-images.githubusercontent.com/77635421/135835456-10e6655d-7b65-4b0e-91dc-d84128b64650.png"/>
 
