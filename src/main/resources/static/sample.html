@@ -12,7 +12,7 @@
     </div>
 
     <!-- form action=(요청되는 url) method=(http 메소드) name=(해당 폼의 이름) -->
-    <form action = "jwt" accept-charset="utf-8" name="trying" method="post">
+    <form action = "jwt/generate" accept-charset="utf-8" name="trying" method="post">
         <!-- lable for=(input 태그에 갖다 붙이기 위한..) 그리고 label 태그 사이에는 입력폼 앞에 오는 글자 -->
         <lable for="information">식별자 입력</lable>
         <!-- input type=(들어오는 형식) name=(post방식으로 갈떄 key에 해당하는 부분) value=(form 안에 회색 글귀) id=(label태그를 위한) -->
@@ -22,11 +22,10 @@
     </form>
 
 
-    <div>
-        <button type="button"
-                onclick = "location.href='validationResult.html'">접근 권한 확인</button>
-    </div>
-
+    <!-- form action=(요청되는 url) method=(http 메소드) name=(해당 폼의 이름) -->
+    <form action = "validation/test" accept-charset="utf-8" name="validation" method="post">
+        <input type = "submit" value="접근 권한 확인"/>
+    </form>
 
 </div> <!-- /container -->
 </body>
