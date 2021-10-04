@@ -3,7 +3,7 @@ jwt, Spring security로 API요청 제한 설정
 
 # 1. Jwt로 인증, 인가 적용하기 위한 이론
 #   1-(1) Jwt 설명
-<img width="80%" src="https://user-images.githubusercontent.com/77635421/135844273-239c2a87-1be5-4b5a-b776-b305c6003cd9.JPG"/>
+<img width="80%" src="https://user-images.githubusercontent.com/77635421/135846233-0542ad3e-bba9-42ce-86b1-d29303641cbf.JPG"/>
 
 <img width="80%" src="https://user-images.githubusercontent.com/77635421/135844390-263a6b40-572c-4a3c-a918-a2e4cb6dd5e9.JPG"/>
 
