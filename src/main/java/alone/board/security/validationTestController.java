@@ -10,17 +10,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 @RequestMapping("/validation")
 public class validationTestController  {
 
-
+/**
     @RequestMapping("/Test")
     public String checkValidation(@RequestParam("Authentication") String jwtToken) {
-
-
-
-
-
-
-
-        Jws<Claims> jws;
 
         try{
             Jwts.parserBuilder()
@@ -32,5 +24,5 @@ public class validationTestController  {
             return "sample";
         }
 
-    }
+    }**/
 }

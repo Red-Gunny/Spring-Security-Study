@@ -1,10 +1,12 @@
 package alone.board.repository;
 
+import alone.board.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
 import javax.sql.DataSource;
+import java.util.Optional;
 
 @Repository
 public class MysqlMemberRepository implements MemberRepository {
@@ -16,8 +18,16 @@ public class MysqlMemberRepository implements MemberRepository {
         this.jdbcTemplate = new JdbcTemplate(dataSource);
     }
 
-    public boolean existsMember() {
-
-
+    @Override
+    public Optional<User> findById(String userId) {
+        return Optional.ofNullable(
+                jdbcTemplate.queryForObject(
+                "SELECT id, password, name FROM user WHERE id=?",
+                ((rs, rowNum) -> {
+                    User entity = new User(rs.getString("id"), rs.getString("password"), rs.getString("name"));
+                    return entity;
+                }),
+                userId));
     }
+
 }

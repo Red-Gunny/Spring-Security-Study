@@ -19,7 +19,7 @@ import java.io.IOException;
 public class JwtController extends HttpServlet {
 
 
-    @Override
+    /**@Override
     @RequestMapping("/generate")
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
@@ -42,5 +42,5 @@ public class JwtController extends HttpServlet {
                 .compact();
 
         return jwtToken;
-    }
+    }**/
 }
