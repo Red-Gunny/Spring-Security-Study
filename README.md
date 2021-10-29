@@ -36,7 +36,7 @@
 
 ## 2-(1) 전반적인 Flow
 #### 1. 내 웹 어플리케이션으로 HTTP 요청이 온다.
-#### 2. 서블릿 필터부터 거친다. 서블릿에 도달하기 전에
+#### 2. 서블릿에 도달하기 전에 서블릿 필터부터 거친다. (서블릿 필터는 나갈 때도 서블릿 끝나고 처리하고 싶은게 있으면 마찬가지)
 #### 3. 이때 DelegatingFilterProxy 가 여러가지 서블릿 필터 중 하나
 #### 4. DelegatingFilterProxy에서는 FilterChainProxy를 찾게된다. 이 때 FilterChainProxy의 Bean이름은 springSecurityFilterChain이다. 여기서 순수 서블릿에서 스프링 시큐리티 모듈로 넘어가게 되는 부분이다.
 #### 5. FilterChainProxy에는 디폴트로 15개의 Filter가 존재하며 경우에따라 내가 Filter를 만들어 추가할 수 있다.
