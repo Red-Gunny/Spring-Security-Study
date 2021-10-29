@@ -1,7 +1,7 @@
 # 스프링 시큐리티와 인증, 인가 공부
 
 ## 목차
-[1.Jwt](# 1. Jwt)
+[1.Jwt](#-1.-Jwt)
 [   1-(1) Jwt 설명](##   1-(1) Jwt 설명)
 [   1-(2) Jwt 토큰을 Access Token, Refresh Token 2개를 이용](##    1-(2) Jwt 토큰을 Access Token, Refresh Token 2개를 이용)
 [2.Spring Security](# 2.Spring Security)
