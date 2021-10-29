@@ -45,6 +45,11 @@ jwt, Spring security로 API요청 제한 설정
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
   (각종 configure() 메소드 구현)
+  
 }
 </code></pre>
 
+1. 각종 요청 별 권한을 설정한다. ( API는 configure(Httpsecurity http) )
+2. 내가 만든 Filter, 혹은 각종 구현체들을 여기서 설정한다. ( APi. Custom한 Filter는 configure(HttpSecurity http), UsernameDetailsService같은건 configure(AuthenticationManagerBuilder auth) )
+
+자세한건 API 도큐먼트[https://docs.spring.io/spring-security/site/docs/current/api/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.html]직접 가서 봐야한다.
