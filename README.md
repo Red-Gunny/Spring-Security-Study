@@ -37,3 +37,14 @@ jwt, Spring security로 API요청 제한 설정
 
 ### 3 UsernamePasswordAuthentiationToken 
 #### :Authentication 인터페이스의 구현체
+
+
+<pre><code>
+
+@EnableWebSecurity
+public class SecurityConfig extends WebSecurityConfigurerAdapter {
+
+  (각종 configure() 메소드 구현)
+}
+</code></pre>
+
