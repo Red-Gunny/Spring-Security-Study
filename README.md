@@ -2,10 +2,8 @@
 
 ## 목차
 [1.Jwt](#-1.-Jwt)
-
-
-[   1-(1) Jwt 설명](##   1-(1) Jwt 설명)
-[   1-(2) Jwt 토큰을 Access Token, Refresh Token 2개를 이용](##    1-(2) Jwt 토큰을 Access Token, Refresh Token 2개를 이용)
+[  1-(1) Jwt 설명](##-1-(1)-jwt-설명)
+[  1-(2) Jwt 토큰을 Access Token, Refresh Token 2개를 이용](##-1-(2)-jwt-토큰을-access-token,-refresh-token-2개를-이용)
 [2.Spring Security](#-2.spring-security)
 
 
