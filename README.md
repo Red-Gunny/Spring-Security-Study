@@ -3,12 +3,15 @@
 ## 목차
 [1.Jwt](#-1.-Jwt)
 
-[  1-(1) Jwt 설명](##-1-(1)-jwt-설명)
+[--1-(1) Jwt 설명](##-1-(1)-jwt-설명)
 
-[  1-(2) Jwt 토큰을 Access Token, Refresh Token 2개를 이용](##-1-(2)-jwt-토큰을-access-token,-refresh-token-2개를-이용)
+[--1-(2) Jwt 토큰을 Access Token, Refresh Token 2개를 이용](##-1-(2)-jwt-토큰을-access-token,-refresh-token-2개를-이용)
 
 [2.Spring Security](#-2.spring-security)
 
+[--2-(1) 전반적인 Flow](##-2-(1)-전반적인-flow)
+[--2-(2) SecurityConfig](##-2-(2)-여기에서-각종-설정을-세팅한다.)
+[--2-(3) UsernamePasswordAuthenticationFilter 설명](##-2-(3)-filter중-usernamepasswordauthenticationfilter-설명)
 
 # 1. Jwt
 ##   1-(1) Jwt 설명
